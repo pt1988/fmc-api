@@ -1,0 +1,52 @@
+# RESTDiscoveryInfo
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**metadata** | [**IMetadata**](IMetadata.md) |  | [optional] 
+**ca_cert** | **str** |  | [optional] 
+**feed_content** | **str** |  | [optional] 
+**description** | **str** |  | [optional] 
+**feed_status** | **str** |  | [optional] 
+**invalid_observables** | **int** |  | [optional] 
+**type** | **str** |  | [optional] 
+**download_on** | **bool** |  | [optional] 
+**next_run** | **int** |  | [optional] 
+**consumed_indicators** | **int** |  | [optional] 
+**total_indicators** | **int** |  | [optional] 
+**total_observables** | **int** |  | [optional] 
+**total_unsupported_observables** | **int** |  | [optional] 
+**checksum** | **str** |  | [optional] 
+**_property** | [**RESTFeedProperty**](RESTFeedProperty.md) |  | [optional] 
+**llfeed_config** | [**LLFeedConfig**](LLFeedConfig.md) |  | [optional] 
+**links** | [**ILinks**](ILinks.md) |  | [optional] 
+**id** | **str** |  | [optional] 
+**client_private_key** | **str** |  | [optional] 
+**client_cert** | **str** |  | [optional] 
+**delivery** | **str** |  | [optional] 
+**subscribed_collections** | [**list[RESTCollectionTopic]**](RESTCollectionTopic.md) |  | [optional] 
+**finish_time** | **int** |  | [optional] 
+**last_run** | **int** |  | [optional] 
+**available_collections** | [**list[RESTCollectionTopic]**](RESTCollectionTopic.md) |  | [optional] 
+**run_now** | **bool** |  | [optional] 
+**refresh** | **int** |  | [optional] 
+**consumed_observables** | **int** |  | [optional] 
+**total_discarded_indicators** | **int** |  | [optional] 
+**params** | [**LLParams**](LLParams.md) |  | [optional] 
+**uri** | **str** |  | [optional] 
+**feed_config** | [**LLFeedConfig**](LLFeedConfig.md) |  | [optional] 
+**version** | **str** |  | [optional] 
+**discovery_info** | [**list[RESTCollectionTopic]**](RESTCollectionTopic.md) |  | [optional] 
+**total_invalid_observables** | **int** |  | [optional] 
+**status_msg** | [**LLStatusMsg**](LLStatusMsg.md) |  | [optional] 
+**passwd** | **str** |  | [optional] 
+**start_hour** | **int** |  | [optional] 
+**feed_type** | **str** |  | [optional] 
+**discarded_indicators** | **int** |  | [optional] 
+**consumed_unsupported_observables** | **int** |  | [optional] 
+**name** | **str** |  | [optional] 
+**username** | **str** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

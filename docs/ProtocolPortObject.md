@@ -1,0 +1,21 @@
+# ProtocolPortObject
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**metadata** | [**PortMetadata**](PortMetadata.md) | Object representing metadata properties of response object. | [optional] 
+**protocol** | **str** | IANA protocol number or Ethertype. This is handled differently for Transport and Network layer protocols. Transport layer protocols are identified by the IANA protocol number. For example: • 6 — TCP • 17 — UDP Network layer protocols are identified by the decimal form of the IEEE Registration Authority Ethertype. For example: • 2048 — IP. | [optional] 
+**port** | **str** | Port number for the object. | [optional] 
+**overridable** | **bool** | Boolean indicating whether object values can be override. | [optional] 
+**name** | **str** | User chosen resource name. | [optional] 
+**description** | **str** | User provided description. | [optional] 
+**links** | [**Links**](Links.md) | Object containing links to this resource. | [optional] 
+**overrides** | [**IOverride**](IOverride.md) | An object override allows you to define an alternate value for an object on a device or domain. | [optional] 
+**id** | **str** | Unique identifier representing resource. | [optional] 
+**type** | **str** | Type associated with resource. | [optional] 
+**version** | **str** | Version number of the response object. | [optional] 
+**override_target_id** | **str** | Unique identifier of domain or device when override assigned to child domain. Used as path parameter to GET override details for a specific object on a specific target (device or domain). | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
